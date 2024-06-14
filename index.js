@@ -80,7 +80,7 @@ do {
                 console.log(chalk.underline.bold.italic.green(`${o1.name} fuel is ${o1.fuel}\n`));
                 if (p1.fuel <= 0) {
                     console.log(gradientText("\n********************") +
-                        chalk.underline.bold.italic.bgYellowBright("You Loose ! Better Luck next Time.") +
+                        chalk.underline.bold.italic.bgYellow("\nOhh! " + p1.name + " You Loose ! Better Luck next Time.\n") +
                         gradientText("********************"));
                     process.exit();
                 }
@@ -90,7 +90,7 @@ do {
                 console.log(chalk.underline.bold.italic.red(`\n${p1.name} fuel is ${p1.fuel}\n`));
                 console.log(chalk.underline.bold.italic.green(`${o1.name} fuel is ${o1.fuel}\n`));
                 if (o1.fuel <= 0) {
-                    console.log(`\n ${gradientText("********************")} ${chalk.yellow.bold.italic("Congratulation")} ${chalk.red.bold.italic(p1.name)} ${chalk.yellow.bold.italic("You Win")} ${gradientText("********************")}\n`);
+                    console.log(`\n ${gradientText("********************")} ${chalk.yellow.bold.italic("Congratulations")} ${chalk.red.bold.italic(p1.name)} ${chalk.yellow.bold.italic("You Win")} ${gradientText("********************")}\n`);
                     process.exit();
                 }
             }
@@ -100,7 +100,7 @@ do {
             console.log(chalk.bgCyanBright.bold.italic("\nYou Drink Health portion Your Fuel is " + p1.fuel + "\n"));
         }
         if (Ask.Action === "Run for your life..") {
-            console.log(chalk.bold.italic.bgMagenta("\nOhh! " + p1.name + " You Loose ! Better Luck next Time.\n"));
+            console.log(chalk.bold.italic.bgMagentaBright("\nOhh! " + p1.name + " You Loose ! Better Luck next Time.\n"));
             process.exit();
         }
     }
@@ -120,7 +120,7 @@ do {
                 console.log(chalk.underline.bold.italic.green(`${o1.name} fuel is ${o1.fuel}\n`));
                 if (p1.fuel <= 0) {
                     console.log(gradientText("\n********************") +
-                        chalk.underline.bold.italic.bgYellowBright("You Loose ! Better Luck next Time.") +
+                        chalk.underline.bold.italic.bgYellow("\nOhh! " + p1.name + " You Loose ! Better Luck next Time.\n") +
                         gradientText("********************"));
                     process.exit();
                 }
@@ -140,7 +140,7 @@ do {
             console.log(chalk.bgCyanBright.bold.italic("\nYou Drink Health portion Your Fuel is " + p1.fuel + "\n"));
         }
         if (Ask.Action === "Run for your life..") {
-            console.log(chalk.bold.italic.bgMagenta("\nOhh! " + p1.name + " You Loose ! Better Luck next Time.\n"));
+            console.log(chalk.bold.italic.bgMagentaBright("\nOhh! " + p1.name + " You Loose ! Better Luck next Time.\n"));
             process.exit();
         }
     }
@@ -160,7 +160,7 @@ do {
                 console.log(chalk.underline.bold.italic.green(`${o1.name} fuel is ${o1.fuel}\n`));
                 if (p1.fuel <= 0) {
                     console.log(gradientText("\n********************") +
-                        chalk.underline.bold.italic.bgYellowBright("You Loose ! Better Luck next Time.") +
+                        chalk.underline.bold.italic.bgYellow("\nOhh! " + p1.name + " You Loose ! Better Luck next Time.\n") +
                         gradientText("********************"));
                     process.exit();
                 }
@@ -180,7 +180,7 @@ do {
             console.log(chalk.bgCyanBright.bold.italic("\nYou Drink Health portion Your Fuel is " + p1.fuel + "\n"));
         }
         if (Ask.Action === "Run for your life..") {
-            console.log(chalk.bold.italic.bgMagenta("\nOhh! " + p1.name + " You Loose ! Better Luck next Time.\n"));
+            console.log(chalk.bold.italic.bgMagentaBright("\nOhh! " + p1.name + " You Loose ! Better Luck next Time.\n"));
             process.exit();
         }
     }

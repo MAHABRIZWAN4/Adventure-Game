@@ -46,7 +46,8 @@ class Opponent {
   fuelDecrease() {
     let fuel = this.fuel - 25;
     this.fuel = Math.max(fuel, 0); // Ensures fuel does not go below 0
-  }
+  
+}
 }
 
 // PLAYER NAME
@@ -106,8 +107,8 @@ do {
         if (p1.fuel <= 0) {
           console.log(
             gradientText("\n********************") +
-              chalk.underline.bold.italic.bgYellowBright(
-                "You Loose ! Better Luck next Time."
+              chalk.underline.bold.italic.bgYellow(
+                "\nOhh! " + p1.name + " You Loose ! Better Luck next Time.\n"
               ) +
               gradientText("********************")
           );
@@ -128,7 +129,7 @@ do {
             `\n ${gradientText(
               "********************"
             )} ${chalk.yellow.bold.italic(
-              "Congratulation"
+              "Congratulations"
             )} ${chalk.red.bold.italic(p1.name)} ${chalk.yellow.bold.italic(
               "You Win"
             )} ${gradientText("********************")}\n`
@@ -148,7 +149,7 @@ do {
     }
     if (Ask.Action === "Run for your life..") {
       console.log(
-        chalk.bold.italic.bgMagenta(
+        chalk.bold.italic.bgMagentaBright(
           "\nOhh! " + p1.name + " You Loose ! Better Luck next Time.\n"
         )
       );
@@ -177,8 +178,8 @@ do {
         if (p1.fuel <= 0) {
           console.log(
             gradientText("\n********************") +
-              chalk.underline.bold.italic.bgYellowBright(
-                "You Loose ! Better Luck next Time."
+              chalk.underline.bold.italic.bgYellow(
+                "\nOhh! " + p1.name + " You Loose ! Better Luck next Time.\n"
               ) +
               gradientText("********************")
           );
@@ -219,7 +220,7 @@ do {
     }
     if (Ask.Action === "Run for your life..") {
       console.log(
-        chalk.bold.italic.bgMagenta(
+        chalk.bold.italic.bgMagentaBright(
           "\nOhh! " + p1.name + " You Loose ! Better Luck next Time.\n"
         )
       );
@@ -248,8 +249,8 @@ do {
         if (p1.fuel <= 0) {
           console.log(
             gradientText("\n********************") +
-              chalk.underline.bold.italic.bgYellowBright(
-                "You Loose ! Better Luck next Time."
+              chalk.underline.bold.italic.bgYellow(
+                "\nOhh! " + p1.name + " You Loose ! Better Luck next Time.\n"
               ) +
               gradientText("********************")
           );
@@ -290,7 +291,7 @@ do {
     }
     if (Ask.Action === "Run for your life..") {
       console.log(
-        chalk.bold.italic.bgMagenta(
+        chalk.bold.italic.bgMagentaBright(
           "\nOhh! " + p1.name + " You Loose ! Better Luck next Time.\n"
         )
       );
